@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InAmigos Foundation — Uniting Minds for Change</title>
+    <meta name="description"
+        content="Empowering communities through education, sustainability, and social impact. Join InAmigos Foundation to make a difference today.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,400;0,700;0,900;1,300;1,700&family=DM+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <div class="loader-logo">InAmigos</div>
+            <div class="loader-bar">
+                <div class="loader-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="InAmigos Foundation" class="logo-img">
+                <span class="logo-text">InAmigos <span>Foundation</span></span>
+            </a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#impact" class="nav-link">Impact</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#cta" class="nav-cta">Donate Now</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#impact">Impact</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#cta">Donate Now</a>
+    </div>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-noise"></div>
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-eyebrow">
+                <span class="eyebrow-dot"></span>
+                Est. September 23, 2020
+                <span class="eyebrow-dot"></span>
+            </div>
+            <h1 class="hero-title">
+                <span class="title-line title-line-1">Uniting</span>
+                <span class="title-line title-line-2"><em>Minds</em></span>
+                <span class="title-line title-line-3">for Change</span>
+            </h1>
+            <p class="hero-sub">InAmigos Foundation empowers communities through education, sustainability, and
+                compassion — one initiative at a time.</p>
+            <div class="hero-actions">
+                <a href="#cta" class="btn-hero-primary">
+                    <span>Join the Movement</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#projects" class="btn-hero-ghost">Explore Projects</a>
+            </div>
+            <div class="hero-stats">
+                <div class="h-stat">
+                    <strong>50K+</strong>
+                    <span>Meals</span>
+                </div>
+                <div class="h-stat-divider"></div>
+                <div class="h-stat">
+                    <strong>20K+</strong>
+                    <span>Trees</span>
+                </div>
+                <div class="h-stat-divider"></div>
+                <div class="h-stat">
+                    <strong>30K+</strong>
+                    <span>Interns</span>
+                </div>
+                <div class="h-stat-divider"></div>
+                <div class="h-stat">
+                    <strong>200+</strong>
+                    <span>Volunteers</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-hint">
+            <div class="scroll-line"></div>
+            <span>Scroll</span>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about-section reveal-section">
+        <div class="container">
+            <div class="about-layout">
+                <div class="about-left">
+                    <p class="label-tag">Who We Are</p>
+                    <h2 class="section-heading">A Legacy of<br><em>Care &amp; Compassion</em></h2>
+                    <p class="about-body">Founded on <strong>September 23, 2020</strong> by <strong>Govind
+                            Shukla</strong>, the InAmigos Foundation is a Section 8 registered non-profit driving
+                        sustainable, inclusive growth. We take bold, actionable steps toward the most pressing
+                        challenges of our time.</p>
+                    <div class="cred-grid">
+                        <div class="cred-pill"><i class="fa-solid fa-shield-halved"></i> 80G &amp; 12A Certified</div>
+                        <div class="cred-pill"><i class="fa-solid fa-building-columns"></i> CSR-1 Registered</div>
+                        <div class="cred-pill"><i class="fa-solid fa-award"></i> NITI Aayog Listed</div>
+                        <div class="cred-pill"><i class="fa-solid fa-certificate"></i> ISO 9001:2015</div>
+                    </div>
+                </div>
+                <div class="about-right">
+                    <p class="label-tag">Our Focus</p>
+                    <div class="focus-cards">
+                        <div class="focus-card fc-blue">
+                            <i class="fa-solid fa-book-open-reader"></i>
+                            <span>Education</span>
+                        </div>
+                        <div class="focus-card fc-rose">
+                            <i class="fa-solid fa-venus"></i>
+                            <span>Women Empowerment</span>
+                        </div>
+                        <div class="focus-card fc-green">
+                            <i class="fa-solid fa-seedling"></i>
+                            <span>Environment</span>
+                        </div>
+                        <div class="focus-card fc-amber">
+                            <i class="fa-solid fa-paw"></i>
+                            <span>Animal Welfare</span>
+                        </div>
+                        <div class="focus-card fc-purple focus-wide">
+                            <i class="fa-solid fa-hands-holding-circle"></i>
+                            <span>Social Welfare</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section reveal-section">
+        <div class="container">
+            <div class="section-intro">
+                <p class="label-tag">Our Initiatives</p>
+                <h2 class="section-heading">Ongoing <em>Projects</em></h2>
+                <p class="section-sub">Every initiative is a determined step toward a more equitable and compassionate
+                    world.</p>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card reveal-card">
+                    <div class="pc-image">
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+                            alt="Project VIKAS">
+                        <span class="pc-badge">Skill Development</span>
+                    </div>
+                    <div class="pc-body">
+                        <h3>Project VIKAS</h3>
+                        <p>High-quality internships and specialized skill development programs preparing youth for the
+                            modern workforce.</p>
+                        <a href="#" class="pc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-card">
+                    <div class="pc-image">
+                        <img src="image_night_food.png" alt="Project SEVA">
+                        <span class="pc-badge">Welfare</span>
+                    </div>
+                    <div class="pc-body">
+                        <h3>Project SEVA</h3>
+                        <p>Providing essential food, nutrition, and clothing to underprivileged communities — ensuring
+                            no one sleeps hungry.</p>
+                        <a href="#" class="pc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-card">
+                    <div class="pc-image">
+                        <img src="image_women_distribution.png" alt="Project BACHPANSHALA">
+                        <span class="pc-badge">Education</span>
+                    </div>
+                    <div class="pc-body">
+                        <h3>Project BACHPANSHALA</h3>
+                        <p>Fostering early education and digital literacy for children, equipping them with tools for a
+                            brighter future.</p>
+                        <a href="#" class="pc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-card">
+                    <div class="pc-image">
+                        <img src="image_dogs_parking.png" alt="Project JEEV">
+                        <span class="pc-badge">Animal Welfare</span>
+                    </div>
+                    <div class="pc-body">
+                        <h3>Project JEEV</h3>
+                        <p>Dedicated to the rescue, rehabilitation, and feeding of stray animals — advocating for
+                            compassionate coexistence.</p>
+                        <a href="#" class="pc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-card">
+                    <div class="pc-image">
+                        <img src="image_women.png" alt="Project UDAAN">
+                        <span class="pc-badge">Empowerment</span>
+                    </div>
+                    <div class="pc-body">
+                        <h3>Project UDAAN</h3>
+                        <p>Empowering women through vocational skill development and entrepreneurial support to build
+                            financial independence.</p>
+                        <a href="#" class="pc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+                <div class="project-card reveal-card">
+                    <div class="pc-image">
+                        <img src="image_planting_3.png" alt="Project PRAKRITI">
+                        <span class="pc-badge">Environment</span>
+                    </div>
+                    <div class="pc-body">
+                        <h3>Project PRAKRITI</h3>
+                        <p>Driving environmental sustainability via mass tree plantation drives and continuous
+                            ecological awareness campaigns.</p>
+                        <a href="#" class="pc-link">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact -->
+    <section id="impact" class="impact-section reveal-section">
+        <div class="impact-bg-text">IMPACT</div>
+        <div class="container">
+            <div class="section-intro light">
+                <p class="label-tag light-tag">Our Reach</p>
+                <h2 class="section-heading light-heading">Numbers That<br><em>Speak</em></h2>
+                <p class="section-sub light-sub">Through the unwavering dedication of our volunteers and supporters, we
+                    create ripples of positive change every single day.</p>
+            </div>
+            <div class="impact-grid">
+                <div class="impact-card ic-featured">
+                    <div class="ic-icon"><i class="fa-solid fa-bowl-food"></i></div>
+                    <div class="ic-num"><span class="counter" data-target="50000">0</span>+</div>
+                    <div class="ic-label">Meals Distributed</div>
+                    <div class="ic-desc">Nourishing families through Project SEVA's nightly outreach</div>
+                </div>
+                <div class="impact-card">
+                    <div class="ic-icon"><i class="fa-solid fa-tree"></i></div>
+                    <div class="ic-num"><span class="counter" data-target="20000">0</span>+</div>
+                    <div class="ic-label">Trees Planted</div>
+                    <div class="ic-desc">Greening the earth, one sapling at a time</div>
+                </div>
+                <div class="impact-card">
+                    <div class="ic-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                    <div class="ic-num"><span class="counter" data-target="30000">0</span>+</div>
+                    <div class="ic-label">Interns Trained</div>
+                    <div class="ic-desc">Youth empowered with real-world skills</div>
+                </div>
+                <div class="impact-card">
+                    <div class="ic-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                    <div class="ic-num"><span class="counter" data-target="200">0</span>+</div>
+                    <div class="ic-label">Active Volunteers</div>
+                    <div class="ic-desc">A growing family united by purpose</div>
+                </div>
+                <div class="impact-card">
+                    <div class="ic-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    <div class="ic-num">Multi</div>
+                    <div class="ic-label">State Presence</div>
+                    <div class="ic-desc">Reaching communities across India</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery-section reveal-section">
+        <div class="container">
+            <div class="section-intro">
+                <p class="label-tag">Visual Stories</p>
+                <h2 class="section-heading">Our <em>Gallery</em></h2>
+            </div>
+            <div class="gallery-grid">
+                <div class="gi gi-featured">
+                    <img src="image_women.png" alt="Women Empowerment">
+                    <div class="gi-overlay">
+                        <span>Empowerment</span>
+                        <h4>Community Support</h4>
+                    </div>
+                </div>
+                <div class="gi">
+                    <img src="image_dogs_parking.png" alt="Animal Welfare">
+                    <div class="gi-overlay">
+                        <span>Animal Welfare</span>
+                        <h4>Care &amp; Rescue</h4>
+                    </div>
+                </div>
+                <div class="gi">
+                    <img src="image_planting_3.png" alt="Environment">
+                    <div class="gi-overlay">
+                        <span>Environment</span>
+                        <h4>Prakriti Drive</h4>
+                    </div>
+                </div>
+                <div class="gi gi-tall">
+                    <img src="image_night_food.png" alt="Food Distribution">
+                    <div class="gi-overlay">
+                        <span>Welfare</span>
+                        <h4>Project SEVA</h4>
+                    </div>
+                </div>
+                <div class="gi gi-wide">
+                    <img src="image_hospital.png" alt="Healthcare">
+                    <div class="gi-overlay">
+                        <span>Healthcare</span>
+                        <h4>Medical Support</h4>
+                    </div>
+                </div>
+                <div class="gi">
+                    <img src="image_saplings_2.png" alt="Sustainability">
+                    <div class="gi-overlay">
+                        <span>Sustainability</span>
+                        <h4>Green Future</h4>
+                    </div>
+                </div>
+                <div class="gi">
+                    <img src="image_women_distribution.png" alt="Distribution">
+                    <div class="gi-overlay">
+                        <span>Outreach</span>
+                        <h4>Hope Drives</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hashtag Belt -->
+    <div class="hashtag-belt">
+        <div class="belt-track">
+            <span>#InAmigos</span><span>•</span>
+            <span>#UnitingMinds</span><span>•</span>
+            <span>#SocialImpact</span><span>•</span>
+            <span>#NGOIndia</span><span>•</span>
+            <span>#MakeADifference</span><span>•</span>
+            <span>#ProjectSEVA</span><span>•</span>
+            <span>#UDAAN</span><span>•</span>
+            <span>#PRAKRITI</span><span>•</span>
+            <span>#InAmigos</span><span>•</span>
+            <span>#UnitingMinds</span><span>•</span>
+            <span>#SocialImpact</span><span>•</span>
+            <span>#NGOIndia</span><span>•</span>
+            <span>#MakeADifference</span><span>•</span>
+            <span>#ProjectSEVA</span><span>•</span>
+            <span>#UDAAN</span><span>•</span>
+            <span>#PRAKRITI</span><span>•</span>
+        </div>
+    </div>
+
+    <!-- CTA -->
+    <section id="cta" class="cta-section reveal-section">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-deco-1"></div>
+                <div class="cta-deco-2"></div>
+                <div class="cta-inner">
+                    <p class="label-tag light-tag">Take Action</p>
+                    <h2 class="cta-heading">"Be the Change<br>You Wish to See"</h2>
+                    <p class="cta-sub">Your contribution, no matter how small, can reshape the destiny of thousands.
+                        Step forward and join hands with InAmigos Foundation.</p>
+                    <div class="cta-actions">
+                        <a href="#" class="cta-btn cta-primary">
+                            <i class="fa-solid fa-heart"></i> Donate Now
+                        </a>
+                        <a href="#" class="cta-btn cta-outline">
+                            <i class="fa-solid fa-users"></i> Join Us
+                        </a>
+                        <a href="#" class="cta-btn cta-ghost">
+                            <i class="fa-solid fa-hands-helping"></i> Volunteer
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <img src="logo.png" alt="InAmigos" class="footer-logo">
+                    <p>Uniting Minds for Change — a Section 8 non-profit committed to community empowerment across
+                        India.</p>
+                    <div class="social-row">
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#impact">Impact</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h5>Get Involved</h5>
+                    <ul>
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Volunteer</a></li>
+                        <li><a href="#">Internship</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">CSR Partners</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact-col">
+                    <h5>Contact Us</h5>
+                    <p><i class="fa-solid fa-location-dot"></i> Ward No. 5, Gram Post, Sipat Ujwal Nagar, Bilaspur,
+                        Chhattisgarh — 495555</p>
+                    <p><i class="fa-solid fa-envelope"></i> <a
+                            href="mailto:inamigosfoundation@gmail.com">inamigosfoundation@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+916267309902">+91 626 730 9902</a></p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Your email address">
+                        <button aria-label="Subscribe"><i class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 InAmigos Foundation. All rights reserved. Registered Section 8 Non-Profit.</p>
+                <p>Designed with <i class="fa-solid fa-heart" style="color:#e04c4c"></i> for a better world.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Loader
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('loader').classList.add('loaded');
+                document.body.classList.add('body-loaded');
+            }, 1200);
+        });
+
+        // Custom cursor
+        const dot = document.getElementById('cursorDot');
+        const ring = document.getElementById('cursorRing');
+        let mx = 0, my = 0, rx = 0, ry = 0;
+        document.addEventListener('mousemove', e => {
+            mx = e.clientX; my = e.clientY;
+            dot.style.left = mx + 'px';
+            dot.style.top = my + 'px';
+        });
+        function animateCursor() {
+            rx += (mx - rx) * 0.12;
+            ry += (my - ry) * .12;
+            ring.style.left = rx + 'px';
+            ring.style.top = ry + 'px';
+            requestAnimationFrame(animateCursor);
+        }
+        animateCursor();
+        document.querySelectorAll('a, button, .project-card, .gi, .focus-card').forEach(el => {
+            el.addEventListener('mouseenter', () => ring.classList.add('enlarged'));
+            el.addEventListener('mouseleave', () => ring.classList.remove('enlarged'));
+        });
+
+        // Navbar
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('scrolled', window.scrollY > 60);
+        });
+
+        // Hamburger
+        const hamburger = document.getElementById('hamburger');
+        const mobileMenu = document.getElementById('mobileMenu');
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mobileMenu.classList.toggle('open');
+        });
+        mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            mobileMenu.classList.remove('open');
+        }));
+
+        // Intersection Observer for reveals
+        const revealSections = document.querySelectorAll('.reveal-section');
+        const revealCards = document.querySelectorAll('.reveal-card');
+        const revealObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) {
+                    e.target.classList.add('revealed');
+                    revealObs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        revealSections.forEach(s => revealObs.observe(s));
+
+        const cardObs = new IntersectionObserver((entries) => {
+            entries.forEach((e, i) => {
+                if (e.isIntersecting) {
+                    setTimeout(() => e.target.classList.add('revealed'), i * 120);
+                    cardObs.unobserve(e.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        revealCards.forEach(c => cardObs.observe(c));
+
+        // Counter
+        const counters = document.querySelectorAll('.counter');
+        const counterObs = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const el = entry.target;
+                    const target = +el.dataset.target;
+                    const duration = 2000;
+                    const step = target / (duration / 16);
+                    let current = 0;
+                    const timer = setInterval(() => {
+                        current += step;
+                        if (current >= target) {
+                            el.textContent = target.toLocaleString();
+                            clearInterval(timer);
+                        } else {
+                            el.textContent = Math.floor(current).toLocaleString();
+                        }
+                    }, 16);
+                    counterObs.unobserve(el);
+                }
+            });
+        }, { threshold: 0.5 });
+        counters.forEach(c => counterObs.observe(c));
+
+        // Hero parallax
+        window.addEventListener('scroll', () => {
+            const hero = document.querySelector('.hero-content');
+            if (hero) {
+                hero.style.transform = `translateY(${window.scrollY * 0.3}px)`;
+                hero.style.opacity = 1 - window.scrollY / 600;
+            }
+        });
+    </script>
+</body>
+
+</html>
