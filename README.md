@@ -55,7 +55,7 @@ The website highlights key projects, showcases social impact, and encourages use
 
 ## 🔗 Live Demo
 
-(Add your deployed link here)
+(https://adityaakhuntia.github.io/InAmigos/)
 
 ---
 
