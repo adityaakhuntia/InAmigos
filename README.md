@@ -23,7 +23,6 @@ This website serves as a digital platform to showcase the NGO's mission, ongoing
 ## 🛠️ Technology Stack
 - **HTML5**: Semantic structure optimized for SEO and accessibility.
 - **CSS3**: Modern layouts (Flexbox/Grid), custom variables, keyframe animations, and glassmorphism effects.
-- **JavaScript**: Vanilla JS logic for intersection observers, parallax scrolling, and dynamic UI interactions.
 - **Google Fonts**: Integration of premium typography for an editorial feel.
 - **FontAwesome**: High-quality vector iconography for intuitive navigation.
 
