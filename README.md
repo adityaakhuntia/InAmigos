@@ -1,7 +1,7 @@
 # 🌍 InAmigos Foundation — NGO Awareness Website
 
 A responsive awareness website developed to present the mission, initiatives, and impact of the InAmigos Foundation. Built as part of a Web Developer Internship.
-
+ 
 ---
 
 ## 📌 Overview
